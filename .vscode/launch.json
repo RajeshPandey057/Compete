@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "Debug",
+      "name": "C/C++: g++-15 build and debug active file",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
-      "externalConsole": true,
+      "externalConsole": false,
       "MIMode": "lldb",
       "preLaunchTask": "C/C++: g++ build active file"
     }
