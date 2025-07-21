@@ -1,0 +1,12 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+UseTab: ForIndent # Changed: Use tabs for indentation, spaces for alignment
+AllowShortIfStatementsOnASingleLine: true # Changed: Allow short if statements on a single line
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+DerivePointerAlignment: false
+SpaceBeforeParens: ControlStatements
+SortIncludes: true # Keep true for sorting within blocks
+Standard: Latest
+PointerBindsToType: true
