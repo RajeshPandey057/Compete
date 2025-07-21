@@ -11,6 +11,13 @@
 *.gch
 *.pch
 
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+*.dwo
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -31,7 +38,12 @@
 *.out
 *.app
 
+# macOS system files
+.DS*
+
+# Xcode debug symbols
 *.dSYM/
+
+# Project-specific
 solution
 LICENSE
-.DS*
