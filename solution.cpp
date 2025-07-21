@@ -1,16 +1,12 @@
-
 /*
-     ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् |
-     उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||
-
+     A man's dream will never die
+     Just Barely Glorious, but Glorious Indeed.
      天上天下唯我獨尊
      Throughout heaven and earth, I alone am the honored one
-
-     The bells of the Gion monastery in India echo with the warning that all things are impermenant.
-     The blossoms of the sala trees teach us through their hues that what flourishes must fade.
-     However! We are the exception!
-
      Nah, I'd win.
+    कर्मण्येवाधिकारस्ते मा फलेषु कदाचन
+
+
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -34,18 +30,22 @@ using namespace std;
 #define que_max priority_queue<int>
 #define que_min priority_queue<int, vi, greater<int>>
 #define bug(...) __f(#__VA_ARGS__, __VA_ARGS__)
-#define print(a)                       \
-    for (auto x : a) cout << x << " "; \
+#define print(a)          \
+    for (auto x : a)      \
+        cout << x << " "; \
     cout << endl
-#define print1(a) \
-    for (auto x : a) cout << x.F << " " << x.S << endl
-#define print2(a, x, y)                              \
-    for (int i = x; i < y; i++) cout << a[i] << " "; \
+#define print1(a)    \
+    for (auto x : a) \
+    cout << x.F << " " << x.S << endl
+#define print2(a, x, y)         \
+    for (int i = x; i < y; i++) \
+        cout << a[i] << " ";    \
     cout << endl
 inline int power(int a, int b) {
     int x = 1;
     while (b) {
-        if (b & 1) x *= a;
+        if (b & 1)
+            x *= a;
         a *= a;
         b >>= 1;
     }
@@ -53,20 +53,21 @@ inline int power(int a, int b) {
 }
 
 template <typename Arg1>
-void __f(const char* name, Arg1&& arg1) { cout << name << " : " << arg1 << endl; }
+void __f(const char *name, Arg1 &&arg1) {
+    cout << name << " : " << arg1 << endl;
+}
 template <typename Arg1, typename... Args>
-void __f(const char* names, Arg1&& arg1, Args&&... args) {
-    const char* comma = strchr(names + 1, ',');
+void __f(const char *names, Arg1 &&arg1, Args &&...args) {
+    const char *comma = strchr(names + 1, ',');
     cout.write(names, comma - names) << " : " << arg1 << " | ";
     __f(comma + 1, args...);
 }
 
 const int N = 200005;
 
-void solve() {
-}
+void solve() {}
 
-int32_t main(int32_t argc, char const* argv[]) {
+int32_t main(int32_t argc, char const *argv[]) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
