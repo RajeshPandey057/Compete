@@ -47,3 +47,7 @@
 # Project-specific
 solution
 LICENSE
+
+.env
+.env.local
+.env.*
