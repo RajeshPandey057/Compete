@@ -1,0 +1,19 @@
+CompileFlags:
+  Compiler: /usr/bin/clang++
+  Add:
+    - -std=c++20
+    - -nostdinc++
+    - --target=aarch64-apple-darwin25
+    - -isysroot
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+    - -isystem
+    - /opt/homebrew/opt/gcc/include/c++/16
+    - -isystem
+    - /opt/homebrew/opt/gcc/include/c++/16/aarch64-apple-darwin25
+    - -isystem
+    - /opt/homebrew/opt/gcc/include/c++/16/backward
+    - -Wall
+    - -Wextra
+    - -Wshadow
+    - -Wconversion
+    - -Wpedantic
