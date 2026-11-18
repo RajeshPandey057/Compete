@@ -3,13 +3,13 @@ CompileFlags:
   Add:
     - -std=c++20
     - -nostdinc++
-    - --target=aarch64-apple-darwin25
+    - --target=aarch64-apple-darwin27
     - -isysroot
-    - /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
     - -isystem
     - /opt/homebrew/opt/gcc/include/c++/16
     - -isystem
-    - /opt/homebrew/opt/gcc/include/c++/16/aarch64-apple-darwin25
+    - /opt/homebrew/opt/gcc/include/c++/16/aarch64-apple-darwin27
     - -isystem
     - /opt/homebrew/opt/gcc/include/c++/16/backward
     - -Wall
